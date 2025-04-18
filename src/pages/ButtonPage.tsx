@@ -165,7 +165,7 @@ export const ButtonPage = () => {
     },[data,dataOther])
 
     return <>
-        <Paper elevation={1} sx={{padding: 3, width:'400px' }}>
+        <Paper elevation={3} sx={{padding: 3, width:'400px' }}>
             <Box display={'flex'} flexDirection={'column'} gap={2} sx={{ textAlign: 'center'}}> 
 
                 <Typography sx={{color: '#000' , fontWeight:'Bold' , fontSize:'24px'}}>Export Data to Excel (fixed data)</Typography>

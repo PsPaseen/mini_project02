@@ -46,7 +46,7 @@ export const TablePage = () => {
                 ดึงข้อมูล
             </Button>
         {/* ให้ Table มีการใช้ Style แบบ component Paper */}
-        <Paper sx={{ width: '1067px', overflow: 'hidden' }}>
+        <Paper elevation={2} sx={{ width: '1067px', overflow: 'hidden' }}>
             <TableContainer> 
                 <Table>
                     <TableHead>

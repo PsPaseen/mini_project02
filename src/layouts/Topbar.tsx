@@ -8,7 +8,7 @@ export const Topbar = () => {
     const nav = useNavigate()
     const day = dayjs().format('YYYY/MM/DD')
     return <>
-    <Box display={'flex'} flexDirection={'row'} gap={2} sx={{backgroundColor: '#fff' , height: '70px' , justifyContent:'space-between'}}>
+    <Box display={'flex'} flexDirection={'row'} gap={2} sx={{height: '70px' , justifyContent:'space-between'}} >
         <Box display={'flex'} flexDirection={'row'} sx={{alignItems:'center', paddingLeft :2}}>
             <Box sx={{ display: 'flex', flexDirection: 'row' , alignItems:'center'}} onClick={() => {nav('/')}}>
                 <Avatar alt="Paseen Sangarung" src={imagePaseen} />
