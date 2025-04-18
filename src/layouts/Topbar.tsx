@@ -16,7 +16,7 @@ export const Topbar = () => {
             <Box display={'flex'} flexDirection={'row'} gap={4} sx={{paddingLeft: 10}}>
                 <Typography sx={{fontWeight:'Bold'}} onClick={() => {nav('/excel')}}>Process Excel</Typography>
                 <Typography sx={{fontWeight:'Bold'}} onClick={() => {nav('/table')}}>Database Table</Typography>
-                <Typography sx={{fontWeight:'Bold'}}>This is Japan</Typography>
+                <Typography sx={{fontWeight:'Bold'}}>Test Typography</Typography>
             </Box>
         </Box>
 
